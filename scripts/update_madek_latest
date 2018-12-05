@@ -1,6 +1,7 @@
 #!/bin/sh -exu
 CHANNEL=$1
 
+git submodule update --init Madek
 cd Madek
 git fetch
 git submodule foreach --recursive 'git reset --hard HEAD'

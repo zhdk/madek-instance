@@ -1,2 +1,9 @@
 # ignore the secret
 master_secret.txt
+
+# ignore local python virtualenv
+.env
+
+# other crap
+*.retry
+.DS_Store

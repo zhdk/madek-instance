@@ -1,0 +1,5 @@
+#!/bin/sh
+
+source scripts/virtualenv-activate
+
+cd Madek/deploy && ansible-playbook -i ../../hosts play_setup-and-deploy.yml

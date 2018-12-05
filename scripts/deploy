@@ -1,0 +1,2 @@
+#!/bin/sh
+./scripts/ansible-playbook play_setup-and-deploy.yml
